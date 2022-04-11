@@ -1,0 +1,38 @@
+header {
+  padding: 30px;
+  background: #121212;
+  color: white;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  font-size: 45px;
+}
+
+.block {
+  float: left;
+}
+.nav-link {
+  padding: 5px;
+  margin: 50px;
+  background-color: #121212;
+  color: #eeffee;
+  text-decoration: none;
+}
+
+.nav-link li {
+  display: inline-block;
+}
+
+body {
+  background-color: #ededed;
+}
+
+footer {
+  padding: 15px;
+  background: #121212;
+  color: rgb(235, 235, 235);
+  font-size: 20px;
+  text-align: center;
+}
