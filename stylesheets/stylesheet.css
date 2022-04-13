@@ -26,12 +26,9 @@ h1 {
   font-size: 45px;
 }
 
-nav {
-}
-
 nav > ul {
   display: flex;
-  background-color: white ;
+  background-color: white;
   justify-content: space-between;
   width: 100%;
 }
