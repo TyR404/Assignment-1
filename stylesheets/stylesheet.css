@@ -7,12 +7,12 @@
 body {
   margin: 10px;
 }
-
+/*defines the colours used in the header*/
 header {
   background: #121212;
-  color: white;
+  color: #ebebeb;
 }
-
+/*defines the properties of the logo*/
 #logo {
   /*Causes the logo to be left*/
   float: left;
@@ -21,25 +21,30 @@ header {
   /*puts padding at the top and bottom*/
   padding: 30px 0 0 30px;
 }
-
+/*defines the properties of h1*/
 h1 {
-  /*puts 30 pixels */
+  /*puts 30 pixels of pading on all sides*/
   padding: 30px;
 
   text-align: center;
   font-size: 45px;
 }
-
+/*defines the properties of the ul inside the nav only*/
 nav > ul {
+  /*used for arranging elements and making them responsive*/
   display: flex;
-  background-color: white;
+  /*
+    The justify-content property aligns the flexible container's 
+    items when the items do not use all available space
+  */
   justify-content: space-between;
   width: 100%;
+  background-color: #ebebeb;
 }
-
+/*class for all the links in the nav*/
 .nav-link {
   background-color: #121212;
-  color: #eeffee;
+  color: #ebebeb;
   text-decoration: none;
   font-size: 24px;
   text-align: center;
@@ -49,20 +54,21 @@ nav > ul {
   margin: 2.5px 0 0 0;
   list-style-type: none;
 }
-
+/*defines the colour of the body*/
 body {
-  background-color: #ededed;
+  background-color: #ebebeb;
 }
-
+/*defines the width of the img in the main section*/
 main > img {
+  /*defines that the width of the image should be 100% of the screen*/
   width: 100%;
 }
-
+/*defines the properties of the Footer*/
 footer {
   padding-bottom: 15px;
   padding-left: 25px;
   background: #121212;
-  color: rgb(235, 235, 235);
+  color: #ebebeb;
   font-size: 20px;
 }
 
@@ -79,9 +85,13 @@ footer > a > img {
 footer > p {
   text-align: center;
 }
-
+/*
+  The @media rule is used in media queries to apply different 
+  styles for different media types
+*/
 @media only screen and (max-width: 600px) {
   nav > ul {
+    /*gives columns to the nav*/
     flex-direction: column;
   }
 
