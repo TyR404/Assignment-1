@@ -71,30 +71,34 @@ footer {
   color: #ebebeb;
   font-size: 20px;
 }
-
+/*
+  defines that the anchors should not have any decoration (such as an underline 
+  or undefined coloring)
+*/
 a {
   text-decoration: none;
 }
-
+/*defines the properties of the images in the anchors located in the footer*/
 footer > a > img {
   text-align: left;
   margin-bottom: -28px;
   padding-left: 5px;
 }
-
+/*defines the properties of the paragrapgh in the footer*/
 footer > p {
   text-align: center;
 }
 /*
   The @media rule is used in media queries to apply different 
-  styles for different media types
+  styles for different media types. in this case its being used 
+  to set a max width
 */
 @media only screen and (max-width: 600px) {
   nav > ul {
-    /*gives columns to the nav*/
+    /*turns nav into columns once it has reached the max width*/
     flex-direction: column;
   }
-
+  /*defines that nav-link is 100% of the screen*/
   .nav-link {
     width: 100%;
   }
