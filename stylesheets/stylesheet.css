@@ -87,6 +87,10 @@ footer > a > img {
 /*defines the properties of the paragrapgh in the footer*/
 footer > p {
   text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 20px;
+  padding: 15px;
 }
 /*
   The @media rule is used in media queries to apply different 
