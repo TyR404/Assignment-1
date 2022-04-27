@@ -29,6 +29,7 @@ h1 {
 
   text-align: center;
   font-size: 45px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
 }
 /*defines the properties of the ul inside the nav only*/
 nav > ul {
