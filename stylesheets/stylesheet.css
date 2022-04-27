@@ -7,6 +7,7 @@
 body {
   margin: 3px;
   background-color: #ebebeb;
+  line-height: 140%;
 }
 /*defines the colours used in the header*/
 header {
@@ -30,6 +31,15 @@ h1 {
   text-align: center;
   font-size: 45px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+}
+h3 {
+  text-align: center;
+  font-size: 25px;
 }
 /*defines the properties of the ul inside the nav only*/
 nav > ul {
@@ -57,11 +67,6 @@ nav > ul {
   list-style-type: none;
 }
 
-/*defines the width of the img in the main section*/
-main > img {
-  /*defines that the width of the image should be 100% of the screen*/
-  width: 100%;
-}
 /*defines the properties of the Footer*/
 footer {
   padding-bottom: 15px;
