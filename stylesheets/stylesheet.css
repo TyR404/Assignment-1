@@ -3,9 +3,10 @@
   margin: 0;
   padding: 0;
 }
-/*puts a margin around the whole website*/
+/*puts a margin around the whole website and adds colour to the background*/
 body {
-  margin: 10px;
+  margin: 3px;
+  background-color: #ebebeb;
 }
 /*defines the colours used in the header*/
 header {
@@ -54,10 +55,7 @@ nav > ul {
   margin: 2.5px 0 0 0;
   list-style-type: none;
 }
-/*defines the colour of the body*/
-body {
-  background-color: #ebebeb;
-}
+
 /*defines the width of the img in the main section*/
 main > img {
   /*defines that the width of the image should be 100% of the screen*/
