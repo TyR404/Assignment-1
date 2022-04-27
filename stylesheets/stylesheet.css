@@ -7,7 +7,6 @@
 body {
   margin: 3px;
   background-color: #ebebeb;
-  line-height: 140%;
 }
 /*defines the colours used in the header*/
 header {
@@ -29,7 +28,7 @@ h1 {
   padding: 30px;
 
   text-align: center;
-  font-size: 45px;
+  font-size: 48px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
 }
 
@@ -40,6 +39,9 @@ h2 {
 h3 {
   text-align: center;
   font-size: 25px;
+}
+main {
+  line-height: 140%;
 }
 /*defines the properties of the ul inside the nav only*/
 nav > ul {
