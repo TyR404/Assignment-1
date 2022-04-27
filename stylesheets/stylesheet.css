@@ -43,6 +43,9 @@ h3 {
 main {
   line-height: 140%;
 }
+p {
+  font-size: 20px;
+}
 /*defines the properties of the ul inside the nav only*/
 nav > ul {
   /*used for arranging elements and making them responsive*/
