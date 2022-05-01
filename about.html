@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="stylesheets/stylesheet.css" />
     <style>
-      #playstation-image {
+      .playstation-image {
         width: 98.25%;
         padding-top: 2.5px;
         height: auto;
@@ -18,14 +18,21 @@
       }
 
       .paragraphs {
-        margin: 0 2% 0 5%;
+        margin: 0 5% 0 5%;
       }
 
       #overview {
         display: inline-block;
         text-align: center;
         margin: 1% 38% 2% 38%;
-        padding: 5px;
+        padding: 9px;
+        background-color: rgba(145, 85, 249, 0.527);
+      }
+      #backstory {
+        display: inline-block;
+        text-align: center;
+        margin: 1% 45% 2% 45%;
+        padding: 9px;
         background-color: rgba(145, 85, 249, 0.527);
       }
     </style>
@@ -53,7 +60,7 @@
       <div id="content">
         <div>
           <img
-            id="playstation-image"
+            class="playstation-image"
             src="pictures/playstation-image3.webp"
             alt="PlayStation Logo"
           />
@@ -65,11 +72,8 @@
           https://en.wikipedia.org/wiki/PlayStation
           https://en.wikipedia.org/wiki/List_of_best-selling_game_consoles
         -->
-          <h2>About</h2>
 
-          <br />
-
-          <h3 id="overview">Overview</h3>
+          <h2 id="overview">Overview</h2>
 
           <p>
             PlayStation (officially abbreviated as PS) is a video game brand
@@ -89,11 +93,14 @@
           </p>
 
           <br />
-          <br />
         </div>
       </div>
 
       <div class="paragraphs">
+        <h2 id="backstory">Backstory</h2>
+
+        <br />
+
         <p>
           Until 1991, Sony had little direct involvement with the video game
           industry. The company supplied components for other consoles, such as

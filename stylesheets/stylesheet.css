@@ -32,26 +32,20 @@ h1 {
   padding: 30px;
 
   text-align: center;
-  font-size: 48px;
+  font-size: 46px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
 }
 
 h2 {
-  padding-top: 2%;
-  text-align: center;
-  font-size: 40px;
-  font-family: "Franklin Gothic Medium", Arial, sans-serif;
-}
-h3 {
   text-align: center;
   font-size: 26px;
 }
 main {
-  line-height: 140%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p {
   font-size: 20px;
+  line-height: 140%;
 }
 /*defines the properties of the ul inside the nav only*/
 nav > ul {
