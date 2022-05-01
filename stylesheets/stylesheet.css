@@ -6,7 +6,7 @@
 /*puts a margin around the whole website and adds colour to the background*/
 body {
   margin: 3px;
-  background-color: #ebebeb;
+  background-color: #68b1ff23;
 }
 /*defines the colours used in the header*/
 header {
