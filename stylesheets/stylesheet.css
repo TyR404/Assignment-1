@@ -1,36 +1,71 @@
-/*gives "all" 0 margin and 0 padding*/
+/*
+Primary Colour: Purple
+Secondary Colour: Light Blue
+
+These colours were chosen because:
+ - Blue represents stability, peace calm
+ - Purple represents Power & Luxery
+
+ These colours represet playstation as a safe and luxurious expierience
+
+ (Triadic Colours used)
+*/
+
+/*
+  gives "all" 0 margin and 0 padding
+*/
 * {
   margin: 0;
   padding: 0;
 }
-/*puts a margin around the whole website and adds colour to the background*/
+/*
+  puts a margin around the whole website and adds colour to the background
+*/
 body {
   margin: 3px;
   background-color: #68b1ff23;
 }
-/*defines the colours used in the header*/
+/*
+  defines the colours used in the header
+*/
 header {
   background: #121212;
   color: #ebebeb;
 }
+/*
+  Styles the h1
+*/
 #h1-link {
   text-decoration: none;
   color: #ebebeb;
 }
-/*defines the properties of the logo*/
+/*
+  defines the properties of the logo
+*/
 #logo {
-  /*Causes the logo to be left*/
+  /*
+    Causes the logo to be left
+  */
   float: left;
   width: 66.9px;
   height: 52px;
-  /*puts padding at the top and bottom*/
+  /*
+    puts padding at the top and bottom
+  */
   padding: 30px 0 0 30px;
 }
-/*defines the properties of h1*/
+/*
+  defines the properties of h1
+*/
 h1 {
-  /*puts 30 pixels of pading on all sides*/
+  /*
+    puts 30 pixels of pading on all sides
+  */
   padding: 30px;
 
+  /*
+    Defines the style of the H1
+  */
   text-align: center;
   font-size: 46px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
