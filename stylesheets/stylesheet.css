@@ -37,6 +37,7 @@ h1 {
 }
 
 h2 {
+  padding-top: 2%;
   text-align: center;
   font-size: 40px;
 }
@@ -46,6 +47,7 @@ h3 {
 }
 main {
   line-height: 140%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p {
   font-size: 20px;
