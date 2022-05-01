@@ -13,6 +13,10 @@ header {
   background: #121212;
   color: #ebebeb;
 }
+#h1-link {
+  text-decoration: none;
+  color: #ebebeb;
+}
 /*defines the properties of the logo*/
 #logo {
   /*Causes the logo to be left*/
