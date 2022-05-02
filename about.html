@@ -8,17 +8,24 @@
 
     <link rel="stylesheet" href="stylesheets/stylesheet.css" />
     <style>
-      .playstation-image {
+      #playstation-image {
         width: 98.25%;
         padding-top: 2.5px;
         height: auto;
+      }
+      #ken-kutaragi-image {
+        padding-top: 1%;
+        height: 100%;
+        padding-left: 35%;
       }
       #content {
         display: flex;
       }
 
-      .paragraphs {
+      #backstory-info {
         margin: 0 5% 0 5%;
+        display: flex;
+        width: 85%;
       }
 
       #overview {
@@ -26,14 +33,14 @@
         text-align: center;
         margin: 1% 38% 2% 38%;
         padding: 9px;
-        background-color: #9155f986;
+        background-color: #003cff8a;
       }
       #backstory {
         display: inline-block;
         text-align: center;
         margin: 1% 45% 2% 45%;
         padding: 9px;
-        background-color: #9155f986;
+        background-color: #003cff8a;
       }
     </style>
   </head>
@@ -58,13 +65,13 @@
       <div id="content">
         <div>
           <img
-            class="playstation-image"
+            id="playstation-image"
             src="pictures/playstation-image3.webp"
             alt="PlayStation Logo"
           />
         </div>
 
-        <div style="padding: 1% 2% 0% 0.75%; width: 48%">
+        <div style="padding: 1% 2% 0% 0.75%; width: 56%">
           <!--
           Information Provided By: Wikipedia
           https://en.wikipedia.org/wiki/PlayStation
@@ -92,32 +99,45 @@
 
           <br />
         </div>
+      </div>     
+
       </div>
-
-      <div class="paragraphs">
-        <h2 id="backstory">Backstory</h2>
-
-        <br />
-
-        <p>
-          Until 1991, Sony had little direct involvement with the video game
-          industry. The company supplied components for other consoles, such as
-          the sound chip for the Super Famicom from Nintendo, and operated a
-          video game studio, Sony Imagesoft.
-        </p>
-
-        <br />
-
-        <p>
-          After working together for 3 years, Nintendo broke off its joint deal
-          with PlayStation, opting to go with Philips instead. The breaking of
-          the partnership infuriated Sony President Norio Ohga, who responded by
-          appointing Ken Kutaragi (The Father of the PlayStation) with the
-          responsibility of developing the PlayStation project to rival Nintendo
-        </p>
-
-        <br />
+      <div id="backstory-info">
+        <div>
+          <h2 id="backstory">Backstory</h2>
+  
+          <br />
+  
+          <p>
+            Until 1991, Sony had little direct involvement with the video game
+            industry. The company supplied components for other consoles, such as
+            the sound chip for the Super Famicom from Nintendo, and operated a
+            video game studio, Sony Imagesoft.
+          </p>
+  
+          <br />
+  
+          <p>
+            After working together for 3 years, Nintendo broke off its joint deal
+            with PlayStation, opting to go with Philips instead. The breaking of
+            the partnership infuriated Sony President Norio Ohga, who responded by
+            appointing Ken Kutaragi (The Father of the PlayStation) with the
+            responsibility of developing the PlayStation project to rival Nintendo
+          </p>
+  
+          <br />
+        </div>
+        <div>
+          <img
+            id="ken-kutaragi-image"
+            src="pictures/Ken Kutaragi.jpg"
+            alt="picture of Ken Kutaragi with his Lifetime Achievement Award at the Game Developers Choice Awards"
+          />
+        </div>
       </div>
+      
+      <br />
+
     </main>
     <footer>
       <a
