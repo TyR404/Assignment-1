@@ -7,8 +7,6 @@ These colours were chosen because:
  - Purple represents Power & Luxery
 
  These colours represet playstation as a safe and luxurious expierience
-
- (Triadic Colours used)
 */
 
 /*
@@ -24,6 +22,8 @@ These colours were chosen because:
 body {
   margin: 3px;
   background-color: #68b1ff23;
+  font-weight: normal;
+  font-style: normal;
 }
 /*
   defines the colours used in the header
@@ -32,13 +32,7 @@ header {
   background: #121212;
   color: #ebebeb;
 }
-/*
-  Styles the h1
-*/
-#h1-link {
-  text-decoration: none;
-  color: #ebebeb;
-}
+
 /*
   defines the properties of the logo
 */
