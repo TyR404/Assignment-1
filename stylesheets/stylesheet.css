@@ -158,7 +158,13 @@ footer > p {
     flex-direction: column;
   }
   /*defines that nav-link is 100% of the screen*/
-  .nav-link {
+  .nav-link:visited,
+  .nav-link:link {
+    z-index: 0;
     width: 100%;
+  }
+
+  nav {
+    position: static;
   }
 }
