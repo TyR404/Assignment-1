@@ -12,11 +12,24 @@
       .console-images {
         width: 35%;
       }
-      #consoles {
+      #ps5-images {
         display: flex;
         height: 50%;
         justify-content: space-evenly;
         flex-wrap: wrap;
+      }
+      #ps5-info {
+        display: flex;
+      }
+      #ps5-disc {
+        display: flex;
+        text-align: left;
+        margin-left: 25%;
+      }
+      #ps5-no-disc {
+        display: flex;
+        text-align: left;
+        margin-left: 75%;
       }
     </style>
   </head>
@@ -38,7 +51,7 @@
       </ul>
     </nav>
     <main>
-      <div id="consoles">
+      <div id="ps5-images">
         <img
           src="pictures/PS5-Disc.jpg"
           alt="PlayStation 5 with disc slot"
@@ -50,6 +63,11 @@
           alt="PlayStation 5 with disc slot"
           class="console-images"
         />
+      </div>
+      <div>
+        <h2 id="ps5-disc">Disc</h2>
+
+        <h2 id="ps5-no-disc">No Disc</h2>
       </div>
     </main>
     <footer>
