@@ -1,3 +1,10 @@
+<!--
+  Name: Tyson
+  Course: Software Development 20S
+  Teacher: Mr. Hardman
+  School: Pembina Trails Early College
+  Date Last Modified: Friday, May 27th, 2022
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,22 +25,40 @@
         height: 50%;
         justify-content: space-evenly;
         flex-wrap: wrap;
+        width: 100%;
       }
       #ps5-info {
         display: flex;
       }
       #ps5-disc {
         display: flex;
-        margin-left: 25%;
+        margin-left: 20%;
         padding-top: 1%;
       }
       #ps5-no-disc {
         padding-top: 1%;
         display: flex;
-        margin-left: 40%;
+        margin-left: 27%;
       }
       h2 {
         margin-bottom: 8%;
+      }
+      #ps4-images {
+        margin-top: 1%;
+        display: flex;
+        height: 50%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      }
+      #ps4-info {
+        display: flex;
+        margin-left: 25%;
+        padding-top: 1%;
+      }
+      #ps4-pro {
+        padding-top: 1%;
+        display: flex;
+        margin-left: 40%;
       }
     </style>
   </head>
@@ -55,7 +80,7 @@
       </ul>
     </nav>
     <main>
-      <div id="ps5-images">
+      <section id="ps5-images">
         <img
           src="pictures/PS5-Disc.jpg"
           alt="PlayStation 5 with disc slot"
@@ -67,19 +92,33 @@
           alt="PlayStation 5 with disc slot"
           class="console-images"
         />
-      </div>
-      <div id="ps5-info">
+      </section>
+
+      <section id="ps5-info">
+        <h2 id="ps5-disc">PS5 - Disc Version</h2>
+
+        <h2 id="ps5-no-disc">PS5 - No Disc Version</h2>
+      </section>
+
+      <section id="ps4-images">
+        <img
+          src="pictures/ps4.png"
+          alt="PlayStation 4"
+          class="console-images"
+        />
+
+        <img
+          src="pictures/ps4-pro.png"
+          alt="PlayStation 4"
+          class="console-images"
+        />
+      </section>
+
+      <section id="ps5-info">
         <h2 id="ps5-disc">Disc</h2>
 
         <h2 id="ps5-no-disc">No Disc</h2>
-      </div>
-      <div>
-        <img
-          src="pictures/ps4.png"
-          alt="PlayStation 5 with disc slot"
-          class="console-images"
-        />
-      </div>
+      </section>
     </main>
     <footer>
       <a
