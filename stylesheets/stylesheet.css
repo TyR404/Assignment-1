@@ -121,6 +121,7 @@ nav > ul {
 .nav-link:focus {
   text-decoration: underline;
   border: #4d76ff solid 3px;
+
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
   -moz-transform: scale(1.1);
