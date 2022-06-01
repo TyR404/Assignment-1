@@ -166,7 +166,7 @@ nav > ul {
 
 /*defines the properties of the Footer*/
 footer {
-  padding: 2% 3% 3% 3%;
+  padding: 2% 3% 4% 3%;
   background: #121212;
   color: #ebebeb;
   font-size: 20px;
@@ -229,10 +229,10 @@ footer > a {
   height: 50px;
   border-radius: 25px;
   /*         Defines a radial gradient for this circular back to top        button. where the first colour #3f2b96 is in the center         of the circular area and goes to #a8c0ff on the outer        edges.      */
-  background: -o-radial-gradient(#003cffb4, #a8d1ff);
-  background: -moz-radial-gradient(#003cffb4, #a8d1ff);
-  background: -webkit-radial-gradient(#003cffb4, #a8d1ff);
-  background: radial-gradient(#003cffb4, #a8d1ff);
+  background: -o-radial-gradient(#121212, #1f1f1f);
+  background: -moz-radial-gradient(#121212, #1f1f1f);
+  background: -webkit-radial-gradient(#121212, #1f1f1f);
+  background: radial-gradient(#121212, #1f1f1f);
   color: whitesmoke;
   text-shadow: 0px 1px 1px #121212, 0px 1.5px 1px #121212;
   text-decoration: none;
