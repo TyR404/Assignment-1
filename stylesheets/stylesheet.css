@@ -105,9 +105,11 @@ nav > ul {
   text-align: center;
   display: block;
   padding: 15px 0;
-  width: calc(calc(100% / 6) - 2.5px);
   margin: 2.5px 0 0 0;
+  width: calc(calc(100% / 6) - 2.5px);
+
   list-style-type: none;
+
   -o-transition: transform 0.5s ease-in-out;
   -moz-transition: transform 0.5s ease-in-out;
   -webkit-transition: transform 0.5s ease-in-out;
