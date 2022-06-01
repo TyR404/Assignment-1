@@ -20,7 +20,7 @@
         height: 78vh;
         width: 100%;
       }
-      .body-p {
+      .content {
         text-align: center;
         margin-left: 20%;
         margin-right: 20%;
@@ -29,21 +29,8 @@
         border: black solid 1px;
         background-color: #9fcdffb4;
       }
-      #products {
-        display: inline-block;
-        text-align: center;
-        margin-left: 38%;
-        margin-right: 38%;
-        padding: 9px;
-        background-color: #003cff8a;
-      }
-      #about {
-        display: inline-block;
-        text-align: center;
-        margin-left: 43.6%;
-        margin-right: 43.6%;
-        padding: 9px;
-        background-color: #003cff8a;
+      p {
+        line-height: 180%;
       }
     </style>
   </head>
@@ -75,11 +62,11 @@
       <br />
 
       <div>
-        <h2 id="about"><u>Who We Are</u></h2>
+        <h2 class="page-title"><u>Who We Are</u></h2>
 
         <br />
 
-        <p class="body-p">
+        <p class="content">
           PlayStation (officially abbreviated as PS) is a video game brand that
           is produced by Sony Interactive Entertainment, a division of Sony. To
           learn more,
@@ -92,12 +79,14 @@
       <br />
       <br />
 
-      <h2 id="products"><u>Shop Our Latest Products</u></h2>
+      <h2 class="page-title" style="margin-left: 37%">
+        <u>Shop Our Latest Products</u>
+      </h2>
 
       <br />
 
-      <div>
-        <p style="text-align: center" class="body-p">
+      <div class="content">
+        <p>
           To Shop Brand New PS5 Consoles,<a
             href="consoles.html"
             style="color: black; padding: 10px; text-decoration: none"
@@ -105,8 +94,10 @@
           >
         </p>
 
-        <p style="text-align: center" class="body-p">
-          TO Shop All New Cosoles, Controllers & More,<a
+        <br />
+
+        <p>
+          To Shop All New Cosoles, Controllers & More,<a
             href="shop.html"
             style="color: black; padding: 10px; text-decoration: none"
             ><b><u>click here</u></b></a
