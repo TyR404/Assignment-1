@@ -14,7 +14,8 @@ These colours were chosen because:
   padding: 0;
 }
 /*
-  puts a margin around the whole website and adds colour to the background
+  puts a margin around the whole website, adds colour to the background, 
+  sets the weight of the text and rhe styling if the text
 */
 body {
   margin: 3px;
@@ -38,6 +39,9 @@ header {
     Causes the logo to be left
   */
   float: left;
+  /* 
+    sets the dimensions of the logo
+  */
   width: 66.9px;
   height: 52px;
   /*
@@ -56,15 +60,27 @@ h1 {
   padding: 30px;
 
   /*
-    Defines the style of the H1
+    aligns text to center
   */
   text-align: center;
+  /* 
+    sets the text size to 46 pixels
+  */
   font-size: 46px;
+  /* 
+    defines the font used by text
+  */
   font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
 }
 
 h2 {
+  /* 
+    sets the text size to 46 pixels
+  */
   text-align: center;
+  /* 
+    sets the text size to 26 pixels
+  */
   font-size: 26px;
 }
 /*"Page Title" transform credit: https://blog.hubspot.com/website/css-animation-examples*/
@@ -78,15 +94,28 @@ h2 {
 }
 .page-title::before {
   content: " ";
+  /* 
+    sets the text to be blocks
+  */
   display: block;
+  /* 
+    sets the position to be absolute
+  */
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   inset: 0 0 0 0;
+  /* 
+    sets the background colour to be blue when hovered over
+  */
   background: #003cff8a;
   z-index: -1;
+  /* defines the transition details*/
+  -o-transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease;
+  -webkit-transition: transform 0.3s ease;
   transition: transform 0.3s ease;
 }
 html {
@@ -95,21 +124,46 @@ html {
 }
 
 .page-title {
+  /* 
+    sets the position to be relative
+  */
   position: relative;
+  /* 
+    sets the text to be inline blocks
+  */
   display: inline-block;
+  /* 
+    aligns the text to center 
+  */
   text-align: center;
+  /* 
+    defines the padding around the styled h2's
+  */
   padding: 9px 27px;
+  /* 
+    defines the margin around the styled h2's
+  */
   margin: 1% 0% 2% 44.25%;
 }
 main {
+  /* defines the font of the text in the main tag */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p {
+  /* 
+    sets the text size of the paragraph tags
+  */
   font-size: 20px;
+  /* 
+    defines how tall the lines should be
+  */
   line-height: 140%;
 }
 
 nav {
+  /* 
+    makes the nav stick to the top of the screen
+  */
   position: sticky;
   top: 0;
   z-index: 1;
@@ -124,27 +178,68 @@ nav > ul {
     items when the items do not use all available space
   */
   justify-content: space-between;
+  /* 
+    sets the unordered list to be 100% of the width of the screen
+  */
   width: 100%;
+  /* 
+    sets the background to a colour of ebebeb
+  */
   background-color: #ebebeb;
+
+  /* defines the font of the text inside the unordered list */
   font-family: "Arial Narrow", Arial, sans-serif;
 }
 
 /*class for all the links in the nav*/
 .nav-link:link,
 .nav-link:visited {
+  /* 
+    sets the background colour of the nav elements to a dark grey
+  */
   background-color: #121212;
+  /* 
+    sets the text to a colour of ebebeb
+  */
   color: #ebebeb;
+
+  /* 
+    makes sure there's no text decoration on the nav elements
+  */
   text-decoration: none;
 
+  /* 
+    sets the text to be a size of 24 pixels
+  */
   font-size: 24px;
+  /* aligns text to be in the center of the nav element */
   text-align: center;
+  /* 
+    defines nav elements to be block elements
+  */
   display: block;
+  /* 
+    sets the nav to have a padding of 15 pixels on the top and bottom
+    and a padding of 0 on the sides
+  */
   padding: 15px 0;
-  margin: 2.5px 0 0 0;
+  /* 
+    sets the top to have a margin of 2.5px
+  */
+  margin-top: 2.5px;
+  /* 
+    sets the width to be 100% divided by 6 minus 2.5 pixels 
+  */
   width: calc(calc(100% / 6) - 2.5px);
 
+  /* 
+    sets the list to not have a syle type
+  */
   list-style-type: none;
 
+  /* 
+    defines the transition elements 
+  */
   -o-transition: transform 0.5s ease-in-out;
   -moz-transition: transform 0.5s ease-in-out;
   -webkit-transition: transform 0.5s ease-in-out;
@@ -154,9 +249,18 @@ nav > ul {
 .nav-link:hover,
 .nav-link:active,
 .nav-link:focus {
+  /* 
+    adds underline to the nav up when hovered on/focused on
+  */
   text-decoration: underline;
+  /* 
+    adds a blue border thats solid and is 3 pixels thick to the nav up when hovered on/focused on
+  */
   border: #4d76ff solid 3px;
 
+  /* 
+    scales the nav up when hovered on/focused on
+  */
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
   -moz-transform: scale(1.1);
@@ -166,28 +270,59 @@ nav > ul {
 
 /*defines the properties of the Footer*/
 footer {
+  /* 
+    adds padding to all sides of the footer
+  */
   padding: 2% 3% 4% 3%;
+  /* 
+    sets the background of the footer to a dark grey
+  */
   background: #121212;
+  /* 
+  sets the colour of the text in the footer
+  */
   color: #ebebeb;
+  /* 
+    sets the size of the text in the footer to 20 pixels
+  */
   font-size: 20px;
 }
-/*
+
+a {
+  /*
   defines that the anchors should not have any decoration (such as an underline 
   or undefined coloring)
 */
-a {
   text-decoration: none;
 }
 
 /*defines the properties of the paragrapgh in the footer*/
 footer > p {
+  /* 
+    aligns text to center
+  */
   text-align: center;
+  /* 
+    adds margin to the right of the text (35% of the screen)
+  */
   margin-right: 35%;
+  /* 
+    "floats" the text right
+  */
   float: right;
+  /* 
+    sets the font of the text in the footer
+  */
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 footer > a {
+  /* 
+    "floats" the links left
+  */
   float: left;
+  /* 
+    sets padding to be 0.5% of the screen all around
+  */
   padding: 0.5%;
 }
 /*
@@ -204,10 +339,16 @@ footer > a {
   .nav-link:visited,
   .nav-link:link {
     z-index: 0;
+    /* 
+      sets the nav bar width to 100% of the screen
+    */
     width: 100%;
   }
 
   nav {
+    /* 
+      sets the position of the nav to default after screen reaches a certain size
+    */
     position: static;
   }
 }
